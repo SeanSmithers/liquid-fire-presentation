@@ -1,0 +1,97 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: xx-large;
+  background-color: #FF6961;
+}
+
+.liquid-container,
+.liquid-child {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+dd {
+  margin: 10px 50px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li ul {
+  margin-top: 15px;
+}
+
+.t_code {
+  font-family: "Courier New";
+  font-weight: normal;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  padding: 40px;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.centered {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.intro { background-color: #FFB347;}
+.what { background-color: #c3cb71; }
+.predefined-animations { background-color: #5A5255; }
+.transition-map { background-color: #25A0C5; }
+.helpers { background-color: #FF6961; }
+.custom-animations { background-color: #559E83; }
+.outro { background-color: #1B85B8; }
+
+#liquid-bind-demo {
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#liquid-bind-demo .liquid-container {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+#liquid-bind-demo .liquid-child {
+  width: 1.5em;
+}
+
+.liquid-if-demo {
+  margin-top: 20px;
+  font-size: 100px;
+}
