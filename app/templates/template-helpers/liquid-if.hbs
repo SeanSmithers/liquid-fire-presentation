@@ -2,18 +2,18 @@
   <h1>Template Helper: <span class="t_code">\{{liquid-if}}</span></h1>
 
   <div class="left">
-    <div>
-      Condition is:
-      {{#liquid-if condition class="liquid-if-demo"}}
-        True
-      {{else}}
-        False
-      {{/liquid-if}}
-    </div>
-    <button {{action 'toggle'}}>Toggle</button>
-  </div>
-  <div class="right">
+    Template:
     {{code-snippet name="liquid-if-template.hbs" unindent=false}}
+    Transition map:
     {{code-snippet name="liquid-if-map.js"}}
+  </div>
+  <div class="right spacer">
+    Condition is:
+    {{#liquid-if condition class="liquid-if-demo"}}
+      True
+    {{else}}
+      False
+    {{/liquid-if}}
+    <button {{action 'toggle'}}>Toggle</button>
   </div>
 </div>

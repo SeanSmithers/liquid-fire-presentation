@@ -93,8 +93,8 @@ export default function() {
   this.transition(
     this.fromRoute('custom-animations-2'),
     this.toRoute('outro'),
-    this.use('toLeft'),
-    this.reverse('toRight')
+    this.use('crossFade'),
+    this.reverse('crossFade')
   );
 
   this.transition(
@@ -119,4 +119,11 @@ export default function() {
     this.reverse('crossFade')
   );
   // END-SNIPPET
+
+  this.transition(
+    this.hasClass('custom-animation-demo'),
+    this.toValue(false),
+    this.use('toUp'),
+    this.reverse('toDown')
+  );
 }

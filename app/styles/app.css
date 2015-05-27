@@ -22,6 +22,21 @@ a {
   color: #FFFFFF;
 }
 
+button {
+  float: right;
+  font-family: inherit;
+  font-size: 50%;
+  padding: .5em 1em;
+  color: #444;
+  color: rgba(0,0,0,.8);
+  border: 1px solid #999;
+  border: 0 rgba(0,0,0,0);
+  background-color: #E6E6E6;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 15px 0;
+}
+
 dd {
   margin: 10px 50px;
 }
@@ -38,6 +53,10 @@ li ul {
   margin-top: 15px;
 }
 
+pre {
+  clear: both;
+}
+
 .t_code {
   font-family: "Courier New";
   font-weight: normal;
@@ -52,11 +71,17 @@ li ul {
   width: calc(100% - 80px);
   height: calc(100% - 80px);
   padding: 40px;
+  overflow: scroll;
 }
 
 .left, .right {
   float: left;
   width: 50%;
+}
+
+.right {
+  padding-left: 30px;
+  width: calc(50% - 40px);
 }
 
 .centered {
@@ -70,9 +95,9 @@ li ul {
 .intro { background-color: #FFB347;}
 .what { background-color: #c3cb71; }
 .predefined-animations { background-color: #5A5255; }
-.transition-map { background-color: #25A0C5; }
+.transition-map { background-color: #559E83; }
 .helpers { background-color: #FF6961; }
-.custom-animations { background-color: #559E83; }
+.custom-animations { background-color: #25A0C5; }
 .outro { background-color: #1B85B8; }
 
 #liquid-bind-demo {
@@ -80,6 +105,7 @@ li ul {
   line-height: 100px;
   text-align: center;
   font-weight: bold;
+  margin-top: 65px;
 }
 
 #liquid-bind-demo .liquid-container {
@@ -92,6 +118,19 @@ li ul {
 }
 
 .liquid-if-demo {
-  margin-top: 20px;
-  font-size: 100px;
+  margin-top: 15px;
+  font-size: 128px;
+}
+
+.custom-animation-demo-wrapper {
+  text-align: center;
+  margin-top: 65px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-animation-demo-model {
+  padding: 20px;
+  height: 250px;
 }

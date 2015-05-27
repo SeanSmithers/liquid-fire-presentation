@@ -1,0 +1,6 @@
+{{#liquid-with activeModel as currentModel use="rotateBelow"}}
+  <div class="custom-animation-demo-model" {{bind-attr style=activeModelStyle}}>
+    <h3>{{currentModel.name}}</h3>
+    <p>{{currentModel.description}}</p>
+  </div>
+{{/liquid-with}}

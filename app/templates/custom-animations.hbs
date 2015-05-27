@@ -1,11 +1,15 @@
 <div class="page custom-animations">
   <h1>Custom Animations</h1>
   <ul>
+    <li>Uses velocity.js by default</li>
     <li>Define a function that returns a Promise which resolves when the transition is complete</li>
-    <li>Liquid-fire passes context to this function</li>
-    <li><span class="t_code">oldElement</span>, <span class="t_code">newElement</span>: outgoing/incoming jQuery-wrapped objects</li>
-    <li><span class="t_code">oldValue</span>, <span class="t_code">newValue</span>: values for old and new states</li>
-    <li><span class="t_code">oldView</span>, <span class="t_code">newView</span>: Ember views corresponding to old and new states</li>
-    <li>+ other properties &amp; functions to manage transitions</li>
+    <li>Liquid-fire passes context to this function
+      <ul>
+        <li><span class="t_code">oldElement</span>, <span class="t_code">newElement</span>: outgoing/incoming jQuery-wrapped objects</li>
+        <li><span class="t_code">oldValue</span>, <span class="t_code">newValue</span>: values for old and new states</li>
+        <li><span class="t_code">oldView</span>, <span class="t_code">newView</span>: Ember views corresponding to old and new states</li>
+      </ul>
+    </li>
+    <li>Animation primitives: <span class="t_code">animate</span>, <span class="t_code">stop</span>, <span class="t_code">isAnimating</span>, <span class="t_code">timeSpent</span>, <span class="t_code">timeRemaining</span>, <span class="t_code">finish</span></li>
   </ul>
 </div>

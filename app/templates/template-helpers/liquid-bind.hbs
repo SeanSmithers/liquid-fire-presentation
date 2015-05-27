@@ -1,11 +1,13 @@
 <div class="page helpers">
   <h1>Template Helper: <span class="t_code">\{{liquid-bind}}</span></h1>
 
-  <div class="left" id="liquid-bind-demo">
-    {{liquid-bind hours}}:{{liquid-bind minutes}}:{{liquid-bind seconds}}
-  </div>
-  <div class="right">
+  <div class="left">
+    Template:
     {{code-snippet name="liquid-bind-template.hbs" unindent=false}}
+    Transition map:
     {{code-snippet name="liquid-bind-map.js"}}
+  </div>
+  <div class="right" id="liquid-bind-demo">
+    {{liquid-bind hours}}:{{liquid-bind minutes}}:{{liquid-bind seconds}}
   </div>
 </div>
