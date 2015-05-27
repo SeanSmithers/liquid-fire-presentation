@@ -50,4 +50,7 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [liquid-fire](https://github.com/ef4/liquid-fire)
+* [ember-code-snippet](https://github.com/ef4/ember-code-snippet)
+* [ember-shortcuts](https://github.com/satchmorun/ember-shortcuts)
 
