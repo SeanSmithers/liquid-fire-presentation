@@ -43,12 +43,16 @@ var ApplicationRoute = Ember.Route.extend({
       previous: 'template-helpers.liquid-if'
     },
     '/custom-animations-2': {
-      next: 'outro',
+      next: 'custom-animations-3',
       previous: 'custom-animations'
+    },
+    '/custom-animations-3': {
+      next: 'outro',
+      previous: 'custom-animations-2'
     },
     '/outro': {
       next: 'intro',
-      previous: 'custom-animations-2'
+      previous: 'custom-animations-3'
     }
   },
   actions: {

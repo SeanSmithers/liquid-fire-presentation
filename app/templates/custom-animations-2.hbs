@@ -1,20 +1,6 @@
 <div class="page custom-animations">
-  {{#liquid-if showCode class="custom-animation-demo"}}
-    <span class="t_code">app/transitions/rotate-below.js:</span>
-    {{code-snippet name="rotate-below.js"}}
-    Template:
-    {{code-snippet name="liquid-with-template.hbs"}}
-  {{else}}
-    <div class="custom-animation-demo-wrapper">
-      {{#liquid-with activeModel as currentModel use="rotateBelow"}}
-        <div class="custom-animation-demo-model" {{bind-attr style=activeModelStyle}}>
-          <h3>{{currentModel.name}}</h3>
-          <p>{{currentModel.description}}</p>
-        </div>
-      {{/liquid-with}}
-    </div>
-    <button {{action "next"}}>Next</button>
-  {{/liquid-if}}
-
-  <button {{action "toggleCode"}}>Toggle Code</button>
+  <span class="t_code">app/transitions/rotate-below.js:</span>
+  {{code-snippet name="rotate-below.js"}}
+  Template:
+  {{code-snippet name="liquid-with-template.hbs"}}
 </div>

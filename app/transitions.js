@@ -92,6 +92,13 @@ export default function() {
 
   this.transition(
     this.fromRoute('custom-animations-2'),
+    this.toRoute('custom-animations-3'),
+    this.use('toUp'),
+    this.reverse('toDown')
+  );
+
+  this.transition(
+    this.fromRoute('custom-animations-3'),
     this.toRoute('outro'),
     this.use('crossFade'),
     this.reverse('crossFade')

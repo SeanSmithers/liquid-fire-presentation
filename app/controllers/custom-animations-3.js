@@ -1,7 +1,6 @@
 import Ember from 'ember';
 
 var CustomAnimations2Controller = Ember.Controller.extend({
-  showCode: true,
   activeModelStyle : function() {
     return "background-color: %@".fmt(this.get('activeModel.color'));
   }.property('activeModel'),
@@ -14,9 +13,6 @@ var CustomAnimations2Controller = Ember.Controller.extend({
         index++;
       }
       this.set('activeModel', this.get('model').objectAt(index));
-    },
-    toggleCode: function() {
-      this.toggleProperty('showCode');
     }
   }
 });

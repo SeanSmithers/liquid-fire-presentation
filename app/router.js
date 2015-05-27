@@ -16,6 +16,7 @@ Router.map(function() {
   });
   this.route('custom-animations');
   this.route('custom-animations-2');
+  this.route('custom-animations-3');
   this.route('outro');
 });
 
